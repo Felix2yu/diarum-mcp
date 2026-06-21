@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "diarum": {
-      "command": "npx",
-      "args": ["-y", "@anthropic-ai/mcp-server-diary"],
+      "command": "node",
+      "args": ["/Users/yufei/Documents/GitHub/diarum-mcp/plugins/diarum-mcp/dist/index.js"],
       "env": {
         "DIARUM_BASE_URL": "http://localhost:8090",
         "DIARUM_API_TOKEN": ""
