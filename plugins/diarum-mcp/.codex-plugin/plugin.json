@@ -1,0 +1,25 @@
+{
+  "name": "diarum-mcp",
+  "version": "1.0.0",
+  "description": "用于将 Diarum 日记应用与 LobeHub 集成的 MCP 服务器",
+  "author": {
+    "name": "Diarum MCP",
+    "url": "https://github.com/Felix2yu/diarum"
+  },
+  "homepage": "https://github.com/Felix2yu/diarum",
+  "repository": "https://github.com/Felix2yu/diarum",
+  "license": "Apache-2.0",
+  "keywords": ["diarum", "diary", "mcp", "lobehub", "journal", "日记"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Diarum 日记 MCP",
+    "shortDescription": "Diarum 日记应用的 MCP 服务器",
+    "longDescription": "一个模型上下文协议服务器，将 Diarum 日记应用与 LobeHub 集成，使 AI 助手能够通过自然语言读取、创建和管理日记条目。",
+    "developerName": "Felix2yu",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/Felix2yu/diarum",
+    "brandColor": "#4A90D9"
+  }
+}
